@@ -1,11 +1,13 @@
 <script>
   import Snow from "../components/Snow.svelte";
+  import Flag from "../components/Flag.svelte";
 </script>
 
 <svelte:head>
     <title>Epoch VT</title>
 </svelte:head>
 <Snow />
+<Flag />
 <div class="main">
     <div class="content" style="color: white">
         <h1 style="margin: 0">Join other high <br>schoolers on <br><strong>December 30</strong> <br>
