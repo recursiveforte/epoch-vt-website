@@ -5,7 +5,8 @@
 ></a>
     <style>
     a {
-        display: none;
+        display: inline-block;
+        height: 64px;
         background-image: url(https://assets.hackclub.com/flag-orpheus-left.svg);
         background-repeat: no-repeat;
         background-position: top left;
@@ -13,17 +14,10 @@
         cursor: pointer;
         flex-shrink: 0;
         width: 112px;
-        height: 48px;
         position: absolute;
         top: 32px;
         left: 0;
         z-index: 999;
-    }
-    @media (min-width: 600px) {
-        a {
-            display: inline-block;
-            height: 64px;
-        }
     }
     @media (prefers-reduced-motion: no-preference) {
         a {
