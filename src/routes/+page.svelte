@@ -82,7 +82,7 @@
 
     p {
         font-size: 1.3rem;
-        line-height: 150%;
+        line-height: 170%;
     }
 
     .main2 {
