@@ -14,7 +14,7 @@
         flex-shrink: 0;
         width: 112px;
         height: 48px;
-        position: fixed;
+        position: absolute;
         top: 32px;
         left: 0;
         z-index: 999;
