@@ -16,7 +16,7 @@
 </svelte:head>
 <Snow />
 <Flag />
-<div class="main">
+<div class="main" style="font-family: 'JetBrains Mono', monospace">
     <div class="content" style="color: white">
         <h1 style="margin: 0">Join other high <br>schoolers on <br><strong>December 30</strong> <br>
             for 10 hours of <br>fun & making at <br>
@@ -43,8 +43,9 @@
     Foundation</a> (d.b.a. <a href="https://hackclub.com">Hack Club</a>), a 501(c)(3) nonprofit (EIN: 81-2908499).</p>
 
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Space+Grotesk&display=swap');
     * {
-        font-family: "JetBrains Mono", monospace;
+        font-family: "Space Grotesk", system-ui;
         color: white;
     }
     .main {
