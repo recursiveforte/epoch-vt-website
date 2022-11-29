@@ -37,47 +37,11 @@
         <a href="https://register.epochvt.hackclub.com"><button style="background-color: rgba(255, 71, 148, 1); width: 100%; min-height: 50px; font-size: 1.4rem; cursor: pointer">Interested? Register here!</button></a>
     </div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2851.5632645962864!2d-73.22928398447851!3d44.38055797910306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cca7df09a009e9b%3A0xd3a527022dfe1a3e!2sHack%20Club!5e0!3m2!1sen!2sus!4v1669720569531!5m2!1sen!2sus" style="border:0; width: 100%; min-height: 100%; border-radius: 10px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-<div class="faq-container">
-    <h1>FAQ:</h1>
-    <div class="faq">
-        <div>
-    <h2>So... What exactly is a hackathon?</h2>
-            <p>TODO lol</p>
-
-        </div>
-            <div>
-    <h2>Hacking? Isn't that dangerous?</h2>
-                <p>TODO lol</p>
-            </div>
-                <div>
-    <h2>Who can attend Epoch VT?</h2>
-                    <p>TODO lol</p>
-
-                </div>
-        <div>
-            <h2>I don't know how to code; can I still join?</h2>
-            <p>TODO lol</p>
-
-        </div>
-
-        <div>
-            <h2>What can I make here?</h2>
-            <p>TODO lol</p>
-
-        </div>
-        <div>
-            <h2>My parents are worried! What should I do?</h2>                <p>TODO lol</p>
-
-
-        </div>
-
-    </div>
 </div>
-</div>
-
 <p style="font-size: 1rem;text-align: center; padding: 0 4em 0.5em 4em;
-"><strong>Epoch VT</strong> is fiscally sponsored by <a href="http://hackclub.com/bank">Hack Club Bank</a>, a project by <a href="https://the.hackfoundation.org">The Hack
+"><strong>Epoch VT</strong> is fiscally sponsored by <a href="https://hackclub.com/bank">Hack Club Bank</a>, a project by <a href="https://the.hackfoundation.org">The Hack
     Foundation</a> (d.b.a. <a href="https://hackclub.com">Hack Club</a>), a 501(c)(3) nonprofit (EIN: 81-2908499).</p>
+
 <style>
     * {
         font-family: "JetBrains Mono", monospace;
@@ -114,22 +78,13 @@
         gap: 1em;
     }
 
-    .faq {
-        display: grid; grid-template-columns: 1fr 1fr;
-    }
 
-    .faq-container {
-        grid-column: span 2    }
 
     @media (max-width: 768px) {
-        .faq {
-            grid-template-columns: 1fr;
-        }
+
         .main2 {
             grid-template-columns: 1fr;
         }
-        .faq-container {
-            grid-column: span 1;
-        }
+
     }
 </style>
