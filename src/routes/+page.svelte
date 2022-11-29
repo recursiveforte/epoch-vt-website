@@ -27,11 +27,21 @@
 <div class="main2" bind:this={main2}>
     <div>
     <h1>The Rundown:</h1>
-    <p><strong>Epoch VT</strong> is a 10-hour hackathon (social coding event) taking place at <strong><a href="/a">Hack Club HQ</a></strong> (15 Falls Road, Shelburne) from 10AM to 8PM.
-        <br>Wel'll be </p>
+    <p><strong>Epoch VT</strong> is a 10-hour hackathon (social coding event) where teens come together to discover the joy of code, build creative projects, and build connections with one another. It's taking place at <strong><a href="https://goo.gl/maps/6GnAJgtejh7qqH726">Hack Club HQ</a></strong> (15 Falls Road, Shelburne) from 10AM to 8PM on December 30, 2022.
+        <br><br>It's one of many regional events surrounding <a href="https://epoch.hackclub.com">Epoch</a>, a large high-school hackathon taking place in Dehli, India, which is organized by <a href="https://hackclub.com">Hack Club</a>.
+    <br><br>Throughout the day, we'll be working on projects together, learning new skills, collecting cool swag (hoodies & stickers!), and meeting new people. Whether you've never coded before or you're a seasoned developer, you're welcome to join us!
+        <br><br>Everything at this event is totally free, including lunch, dinner, swag, and other goodies. Our finances are all publicly available on <a href="https://bank.hackclub.com/epochvt">Hack Club Bank</a>.
+        <br><br>If you have any questions, feel free to email Cheru Berhanu at <a href="mailto:cheru@cheru.dev">cheru@cheru.dev</a>. We hope we'll see you there!
+        <br><br>- <a href="https://cheru.dev">Cheru Berhanu</a>, <a href="https://henrybass.github.io/">Henry Bass</a>, and <a href="https://snwy.me">Mason Meirs</a> :D
+
+    </p>
+        <a href="https://register.epochvt.hackclub.com"><button style="background-color: rgba(255, 71, 148, 1); width: 100%; min-height: 50px; font-size: 1.4rem; cursor: pointer">Interested? Register here!</button></a>
     </div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2851.5632645962864!2d-73.22928398447851!3d44.38055797910306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cca7df09a009e9b%3A0xd3a527022dfe1a3e!2sHack%20Club!5e0!3m2!1sen!2sus!4v1669720569531!5m2!1sen!2sus" style="border:0; width: 100%; min-height: 500px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2851.5632645962864!2d-73.22928398447851!3d44.38055797910306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cca7df09a009e9b%3A0xd3a527022dfe1a3e!2sHack%20Club!5e0!3m2!1sen!2sus!4v1669720569531!5m2!1sen!2sus" style="border:0; width: 100%; min-height: 100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
+<p style="font-size: 1rem;text-align: center; padding: 0 4em 0.5em 4em;
+"><strong>Epoch VT</strong> is fiscally sponsored by <a href="http://hackclub.com/bank">Hack Club Bank</a>, a project by <a href="https://the.hackfoundation.org">The Hack
+    Foundation</a> (d.b.a. <a href="https://hackclub.com">Hack Club</a>), a 501(c)(3) nonprofit (EIN: 81-2908499).</p>
 <style>
     * {
         font-family: "JetBrains Mono", monospace;
@@ -62,7 +72,7 @@
     }
 
     .main2 {
-        padding: 4em;
+        padding: 4em 4em 1em 4em;
         display: grid;
         grid-template-columns: 3fr 2fr;
         gap: 1em;
