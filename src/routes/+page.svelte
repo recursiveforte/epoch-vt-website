@@ -1,6 +1,11 @@
+<script>
+  import Snow from "../components/Snow.svelte";
+</script>
+
 <svelte:head>
     <title>Epoch VT</title>
 </svelte:head>
+<Snow />
 <div class="main">
     <div class="content" style="color: white">
         <h1 style="margin: 0">Join other high <br>schoolers on <br><strong>December 30</strong> <br>
@@ -10,15 +15,14 @@
         </div>
 </div>
 <div class="main2">
-    <h2>So... What even is this?</h2>
-
-    <h2>Why should I attend?</h2>
-
-    <p>Interested? Register here!</p>
+    <h1>The Rundown:</h1>
+    <p><strong>Epoch VT</strong> is a 10-hour hackathon (social coding event) taking place at <strong><a href="/a">Hack Club HQ</a></strong> from 10AM to 8PM.
+        <br>During this time, you'll be making building cool projects, making new friends</p>
 </div>
 <style>
     * {
-        font-family: "JetBrains Mono";
+        font-family: "JetBrains Mono", monospace;
+        color: white;
     }
     .main {
         background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0,0.9) 100%), url(https://epoch.hackclub.com/assemble.jpg);
@@ -36,7 +40,15 @@
         margin: 2em;
     }
 
-    strong {
+    strong, a {
         color: rgba(255, 71, 148, 1);
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    .main2 {
+        margin: 4em
     }
 </style>
