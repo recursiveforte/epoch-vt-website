@@ -16,7 +16,7 @@
 </svelte:head>
 <Snow />
 <Flag />
-<div class="main" >
+<div class="main" style="overflow: hidden">
     <div class="content" style="color: white">
         <h1 style="margin: 0; font-family: 'JetBrains Mono', monospace">Join other high <br>schoolers on <br><strong>December 30</strong> <br>
             for 10 hours of <br>fun & making at <br>
@@ -29,14 +29,14 @@
             <strong>&nbsp;&nbsp;<FontAwesomeIcon icon={faSeedling} /></strong> Beginners Welcome
         </h2>
     </div>
-    <div class="quick-info mobile-only">
-            <h2 style="text-align: center"><strong><FontAwesomeIcon icon={faMapLocationDot} /></strong> 15 Falls Road, Shelburne VT<br>
-                <strong><FontAwesomeIcon icon={faClock} /></strong> December 30, 10am-8pm<br>
-                <strong><FontAwesomeIcon icon={faSeedling} /></strong> Beginners Welcome<br>
-            </h2>
-    </div>
 </div>
 <div class="main2" bind:this={main2}>
+    <div class="quick-info mobile-only">
+        <h2 style="text-align: center"><strong><FontAwesomeIcon icon={faMapLocationDot} /></strong> 15 Falls Road, Shelburne VT<br>
+            <strong><FontAwesomeIcon icon={faClock} /></strong> December 30, 10am-8pm<br>
+            <strong><FontAwesomeIcon icon={faSeedling} /></strong> Beginners Welcome<br>
+        </h2>
+    </div>
     <div>
     <h1>The Rundown:</h1>
         <p><strong>Epoch VT</strong> is a 10-hour hackathon (social coding event) where teens will come together to discover the joy of code, build creative projects, learn new skills, and build connections with one another. <br><br>It's taking place at <strong><a href="https://goo.gl/maps/6GnAJgtejh7qqH726">Hack Club HQ</a></strong> (15 Falls Road, Shelburne) from <strong>10AM to 8PM</strong> on <strong>December 30, 2022</strong>. Whether you've never coded before or you're a seasoned developer, we'd love to have you join us!
@@ -50,7 +50,7 @@
     </div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2851.5632645962864!2d-73.22928398447851!3d44.38055797910306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cca7df09a009e9b%3A0xd3a527022dfe1a3e!2sHack%20Club!5e0!3m2!1sen!2sus!4v1669720569531!5m2!1sen!2sus" style="border:0; width: 100%; min-height: 100%; border-radius: 10px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
-<p style="font-size: 1.05rem;text-align: center; padding: 0 4em 0.5em 4em;
+<p style="font-size: 1.05rem;text-align: center; padding: 0 2em 0.5em 2em;
 "><strong>Epoch VT</strong> is fiscally sponsored by <a href="https://hackclub.com/bank">Hack Club Bank</a>, a project by <a href="https://the.hackfoundation.org">The Hack
     Foundation</a> (d.b.a. <a href="https://hackclub.com">Hack Club</a>), a 501(c)(3) nonprofit (EIN: 81-2908499).</p>
 
@@ -64,7 +64,8 @@
         background-image: linear-gradient(0deg, rgba(0, 0, 0,1) 1%, rgba(0, 0, 0, 0.5), rgba(0, 0, 0,0.9) 100%), url(https://epoch.hackclub.com/assemble.jpg);
         background-size: cover;
         background-position: bottom;
-        height: 100vh;
+        min-height: 100vh;
+        overflow: auto;
         width: 100%;
         display: flex;
         align-items: center;
@@ -86,17 +87,15 @@
     }
 
     .main2 {
-        padding: 4em 4em 1em 4em;
+        padding: 2em 2em 1em 2em;
         display: grid;
         grid-template-columns: 3fr 2fr;
         gap: 1em;
     }
 
     .quick-info {
-        grid-column: span 2;
         position: absolute;
         bottom: 0;
-        width: 100%;
     }
 
     .mobile-only {
@@ -116,6 +115,7 @@
 
         .mobile-only {
             display: block;
+            position: relative;
         }
 
     }
