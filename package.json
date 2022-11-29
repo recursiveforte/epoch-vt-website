@@ -21,6 +21,9 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fortawesome/fontawesome-svg-core": "^6.2.1",
+		"@fortawesome/free-solid-svg-icons": "^6.2.1",
+		"fontawesome-svelte": "^2.0.1",
 		"svelte-particles": "^2.5.3",
 		"tsparticles": "^2.5.3"
 	}
