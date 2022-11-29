@@ -3,12 +3,12 @@
   import Flag from "../components/Flag.svelte";
 
   import { library } from '@fortawesome/fontawesome-svg-core';
-  import { faMapLocationDot } from '@fortawesome/free-solid-svg-icons';
+  import { faMapLocationDot, faClock, faSeedling } from '@fortawesome/free-solid-svg-icons';
   import { FontAwesomeIcon, FontAwesomeLayers, FontAwesomeLayersText } from 'fontawesome-svelte';
 
   let main2;
 
-  library.add(faMapLocationDot);
+  library.add(faMapLocationDot, faClock, faSeedling);
 </script>
 
 <svelte:head>
@@ -23,6 +23,18 @@
             <strong>Epoch VT!</strong> </h1>
         <svg fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414" xmlns="http://www.w3.org/2000/svg" aria-label="down-caret" viewBox="0 0 32 32" preserveAspectRatio="xMidYMid meet" fill="currentColor" width="50" height="50" color="white" style="cursor: pointer" on:click={() => main2.scrollIntoView({behavior: "smooth"})}><g><path d="M 0.359841 9.01822C 0.784113 9.37178 1.41467 9.31446 1.76823 8.8902C 3.14518 7.2451 6.52975 3.42464 8.25002 2.11557C 9.99919 3.44663 13.335 7.21555 14.7318 8.8902C 15.0854 9.31446 15.7159 9.37178 16.1402 9.01822C 16.5645 8.66466 16.6215 8.03371 16.2679 7.60943C 14.7363 5.76983 11.2749 1.80977 9.30351 0.408618C 8.99227 0.190441 8.64018 0 8.25002 0C 7.85987 0 7.50778 0.190441 7.19654 0.408618C 5.26486 1.78153 1.73514 5.80788 0.232849 7.60856L 0.231804 7.60982C -0.12176 8.03409 -0.0644362 8.66466 0.359841 9.01822Z" transform="translate(7.12506 20.6251) scale(1 -1)"></path></g></svg>
         </div>
+    <div class="quick-info">
+        <h2 style="text-align: center"><strong><FontAwesomeIcon icon={faMapLocationDot} /></strong> 15 Falls Road, Shelburne VT &nbsp;&nbsp;<strong>|</strong>
+            <strong>&nbsp;&nbsp;<FontAwesomeIcon icon={faClock} /></strong> December 30, 10am-8pm &nbsp;&nbsp;<strong>|</strong>
+            <strong>&nbsp;&nbsp;<FontAwesomeIcon icon={faSeedling} /></strong> Beginners Welcome
+        </h2>
+    </div>
+    <div class="quick-info mobile-only">
+            <h2 style="text-align: center"><strong><FontAwesomeIcon icon={faMapLocationDot} /></strong> 15 Falls Road, Shelburne VT<br>
+                <strong><FontAwesomeIcon icon={faClock} /></strong> December 30, 10am-8pm<br>
+                <strong><FontAwesomeIcon icon={faSeedling} /></strong> Beginners Welcome<br>
+            </h2>
+    </div>
 </div>
 <div class="main2" bind:this={main2}>
     <div>
@@ -49,7 +61,7 @@
         color: white;
     }
     .main {
-        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0,0.9) 100%), url(https://epoch.hackclub.com/assemble.jpg);
+        background-image: linear-gradient(0deg, rgba(0, 0, 0,1) 1%, rgba(0, 0, 0, 0.5), rgba(0, 0, 0,0.9) 100%), url(https://epoch.hackclub.com/assemble.jpg);
         background-size: cover;
         background-position: bottom;
         height: 100vh;
@@ -70,6 +82,7 @@
 
     p {
         font-size: 1.3rem;
+        line-height: 150%;
     }
 
     .main2 {
@@ -79,12 +92,30 @@
         gap: 1em;
     }
 
+    .quick-info {
+        grid-column: span 2;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .mobile-only {
+        display: none;
+    }
 
 
     @media (max-width: 768px) {
 
         .main2 {
             grid-template-columns: 1fr;
+        }
+
+        .quick-info {
+            display: none;
+        }
+
+        .mobile-only {
+            display: block;
         }
 
     }
