@@ -46,7 +46,7 @@
         <br><br>- <a href="https://cheru.dev">Cheru Berhanu</a>, <a href="https://henrybass.github.io/">Henry Bass</a>, and <a href="https://snwy.me">Mason Meirs</a> :D
 
     </p>
-        <a href="https://register.epochvt.hackclub.com"><button style="background-color: rgba(255, 71, 148, 1); width: 100%; min-height: 50px; font-size: 1.4rem; cursor: pointer">Interested? Register here!</button></a>
+        <a href="https://register.epochvt.hackclub.com"><button style="background-color: rgba(255, 71, 148, 1);border: solid 2px white; width: 100%; min-height: 50px; font-size: 1.4rem; cursor: pointer">Interested? Register here!</button></a>
     </div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2851.5632645962864!2d-73.22928398447851!3d44.38055797910306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cca7df09a009e9b%3A0xd3a527022dfe1a3e!2sHack%20Club!5e0!3m2!1sen!2sus!4v1669720569531!5m2!1sen!2sus" style="border:0; width: 100%; min-height: 100%; border-radius: 10px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
