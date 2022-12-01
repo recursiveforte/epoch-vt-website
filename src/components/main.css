@@ -6,3 +6,8 @@
     height: 100vh;
     pointer-events: none;
 }
+
+* {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}

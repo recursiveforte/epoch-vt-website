@@ -6,14 +6,14 @@
     <style>
     a {
         display: inline-block;
-        height: 64px;
+        height: 96px;
         background-image: url(https://assets.hackclub.com/flag-orpheus-left.svg);
         background-repeat: no-repeat;
         background-position: top left;
         background-size: contain;
         cursor: pointer;
         flex-shrink: 0;
-        width: 112px;
+        width: 149px;
         position: absolute;
         top: 32px;
         left: 0;
