@@ -39,9 +39,7 @@
     </div>
     <div>
         <h1>Dear student,</h1>
-        <p>We're inviting you to learn to code at <strong>Epoch VT</strong>, a 10-hour hackathon (social coding event) where programmers, artists, designers, and other high-schoolers from across Vermont will come together to build creative projects and learn new skills.
-
-            <br><br>It's taking place at <strong><a href="https://goo.gl/maps/6GnAJgtejh7qqH726">Hack Club HQ</a></strong> (15 Falls Road, Shelburne) from <strong>10AM to 8PM</strong> on <strong>December 30, 2022</strong>. Whether you've never coded before or you're a seasoned developer, we'd love to have you join us!
+        <p>We're inviting you to learn to code at <strong>Epoch VT</strong>, a 10-hour hackathon (social coding event) where programmers, artists, designers, and other high-schoolers from across Vermont will come together to socialize, build creative projects, and learn new skills. Whether you've never coded before or you're a seasoned developer, we'd love to have you join us!
             <br><br>It's one of several satellite events revolving around <a href="https://epoch.hackclub.com">Epoch</a>, a large high-school hackathon taking place in Dehli, India. Epoch events are organized by <a href="https://hackclub.com">Hack Club</a>, a nonprofit network of high school coding clubs and makers around the world.
             <br><br>Everything at this event is totally free, including meals, drinks, swag (hoodies & stickers!), and other goodies. Our finances are all publicly visible on <a href="https://bank.hackclub.com/epochvt">Hack Club Bank</a>.
             <br><br>If you have any questions, feel free to email Cheru Berhanu at <a href="mailto:cheru@cheru.dev">cheru@cheru.dev</a>. <br>This is going to be a ton of fun! We hope to see you there!
