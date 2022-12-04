@@ -39,11 +39,11 @@
     </div>
     <div>
         <h1>A high-school "hackathon"</h1>
-        <p><strong>Epoch VT</strong> is a 10-hour hackathon (social coding event) where 40 programmers, artists, designers, and other high-schoolers from across Vermont will come together to build creative projects and learn new skills.
+        <p>Learn to code at <strong>Epoch VT</strong>, a 10-hour social coding event where programmers, artists, designers, and other high-schoolers from across Vermont will come together to build creative projects and learn new skills.
 
             <br><br>It's taking place at <strong><a href="https://goo.gl/maps/6GnAJgtejh7qqH726">Hack Club HQ</a></strong> (15 Falls Road, Shelburne) from <strong>10AM to 8PM</strong> on <strong>December 30, 2022</strong>. Whether you've never coded before or you're a seasoned developer, we'd love to have you join us!
-            <br><br>It's one of several regional events surrounding <a href="https://epoch.hackclub.com">Epoch</a>, a large high-school hackathon taking place in Dehli, India. Epoch events are organized by <a href="https://hackclub.com">Hack Club</a>, a nonprofit network of high school coding clubs and makers around the world.
-            <br><br>Everything at this event is totally free, including lunch, dinner, swag (hoodies, T-shirts, & stickers!), and other goodies. Our finances are all publicly visible on <a href="https://bank.hackclub.com/epochvt">Hack Club Bank</a>.
+            <br><br>It's one of several satellite events revolving around <a href="https://epoch.hackclub.com">Epoch</a>, a large high-school hackathon taking place in Dehli, India. Epoch events are organized by <a href="https://hackclub.com">Hack Club</a>, a nonprofit network of high school coding clubs and makers around the world.
+            <br><br>Everything at this event is totally free, including meals, drinks, swag (hoodies & stickers!), and other goodies. Our finances are all publicly visible on <a href="https://bank.hackclub.com/epochvt">Hack Club Bank</a>.
             <br><br>If you have any questions, feel free to email Cheru Berhanu at <a href="mailto:cheru@cheru.dev">cheru@cheru.dev</a>. <br>This is going to be a ton of fun! We hope to see you there!
             <br><br>- <a href="https://cheru.dev">Cheru Berhanu</a>, <a href="https://henrybass.github.io/">Henry Bass</a>, and <a href="https://snwy.me">Mason Meirs</a> :D<br>
 
