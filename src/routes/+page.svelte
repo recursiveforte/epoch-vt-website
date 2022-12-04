@@ -38,19 +38,21 @@
         </h2>
     </div>
     <div>
-        <h1>A high-school "hackathon"</h1>
-        <p>Learn to code at <strong>Epoch VT</strong>, a 10-hour social coding event where programmers, artists, designers, and other high-schoolers from across Vermont will come together to build creative projects and learn new skills.
+        <h1>Dear student,</h1>
+        <p>We're inviting you to learn to code at <strong>Epoch VT</strong>, a 10-hour hackathon (social coding event) where programmers, artists, designers, and other high-schoolers from across Vermont will come together to build creative projects and learn new skills.
 
             <br><br>It's taking place at <strong><a href="https://goo.gl/maps/6GnAJgtejh7qqH726">Hack Club HQ</a></strong> (15 Falls Road, Shelburne) from <strong>10AM to 8PM</strong> on <strong>December 30, 2022</strong>. Whether you've never coded before or you're a seasoned developer, we'd love to have you join us!
             <br><br>It's one of several satellite events revolving around <a href="https://epoch.hackclub.com">Epoch</a>, a large high-school hackathon taking place in Dehli, India. Epoch events are organized by <a href="https://hackclub.com">Hack Club</a>, a nonprofit network of high school coding clubs and makers around the world.
             <br><br>Everything at this event is totally free, including meals, drinks, swag (hoodies & stickers!), and other goodies. Our finances are all publicly visible on <a href="https://bank.hackclub.com/epochvt">Hack Club Bank</a>.
             <br><br>If you have any questions, feel free to email Cheru Berhanu at <a href="mailto:cheru@cheru.dev">cheru@cheru.dev</a>. <br>This is going to be a ton of fun! We hope to see you there!
-            <br><br>- <a href="https://cheru.dev">Cheru Berhanu</a>, <a href="https://henrybass.github.io/">Henry Bass</a>, and <a href="https://snwy.me">Mason Meirs</a> :D<br>
+            <br><br>~ <a href="https://cheru.dev">Cheru Berhanu</a>, <a href="https://henrybass.github.io/">Henry Bass</a>, and <a href="https://snwy.me">Mason Meirs</a> :D<br>
 
         </p>
         <a href="https://register.epochvt.hackclub.com"><button style="background-color: rgba(255, 71, 148, 1);border: solid 2px white; width: 100%; min-height: 50px; font-size: 1.4rem; cursor: pointer">Interested? Register here!</button></a>
     </div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2851.5632645962864!2d-73.22928398447851!3d44.38055797910306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cca7df09a009e9b%3A0xd3a527022dfe1a3e!2sHack%20Club!5e0!3m2!1sen!2sus!4v1669720569531!5m2!1sen!2sus" style="border:0; width: 100%; min-height: 100%; border-radius: 10px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
 </div>
 <p style="font-size: 1.05rem;text-align: center; padding: 0 2em 0.5em 2em;
 "><strong>Epoch VT</strong> is fiscally sponsored by <a href="https://hackclub.com/bank">Hack Club Bank</a>, a project by <a href="https://the.hackfoundation.org">The Hack
