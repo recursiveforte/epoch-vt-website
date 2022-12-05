@@ -32,7 +32,7 @@
 </div>
 <div class="main2" bind:this={main2}>
     <div class="quick-info mobile-only">
-        <h2 style="text-align: center"><strong><FontAwesomeIcon icon={faMapLocationDot} /></strong>Hack Club HQ, Shelburne VT<br>
+        <h2 style="text-align: center"><strong><FontAwesomeIcon icon={faMapLocationDot} /></strong> Hack Club HQ, Shelburne VT<br>
             <strong><FontAwesomeIcon icon={faClock} /></strong> December 30, 10am-8pm<br>
             <strong><FontAwesomeIcon icon={faSeedling} /></strong> Beginners Welcome
         </h2>
