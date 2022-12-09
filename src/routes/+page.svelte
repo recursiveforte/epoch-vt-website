@@ -2,11 +2,15 @@
   import Snow from "../components/Snow.svelte";
   import Flag from "../components/Flag.svelte";
   import "normalize.css/normalize.css"
-  import { library } from '@fortawesome/fontawesome-svg-core';
-  import { faMapLocationDot, faClock, faSeedling, faClipboardCheck } from '@fortawesome/free-solid-svg-icons';
+  import { icon, library } from '@fortawesome/fontawesome-svg-core';
+  import { faMapLocationDot, faClock, faSeedling, faClipboardCheck, faEarthAsia, faDollarSign, faWrench } from '@fortawesome/free-solid-svg-icons';
+  // @ts-ignore
   import { FontAwesomeIcon, FontAwesomeLayers, FontAwesomeLayersText } from 'fontawesome-svelte';
+  /**
+   * @type {HTMLDivElement}
+   */
   let main2;
-  library.add(faMapLocationDot, faClock, faSeedling, faClipboardCheck);
+  library.add(faMapLocationDot, faClock, faSeedling, faClipboardCheck ,faEarthAsia, faDollarSign, faWrench);
 </script>
 
 <svelte:head>
@@ -38,17 +42,40 @@
         </h2>
     </div>
     <div>
-        <h1>Dear student,</h1>
-        <p>We're inviting you to learn to code at <strong>Epoch VT</strong>, a 10-hour hackathon (social coding event) where programmers, artists, designers, and other high-schoolers from across Vermont will come together to socialize, build creative projects, and learn new skills. Whether you've never coded before or you're a seasoned developer, we'd love to have you join us!
-            <br><br>It's one of several satellite events revolving around <a href="https://epoch.hackclub.com">Epoch</a>, a large high-school hackathon taking place in Delhi, India. Epoch events are organized by <a href="https://hackclub.com">Hack Club</a>, a nonprofit network of high school coding clubs and makers around the world.
-            <br><br>Everything at this event is totally free, including meals, drinks, swag (hoodies & stickers!), and other goodies. Our finances are all publicly visible on <a href="https://bank.hackclub.com/epochvt">Hack Club Bank</a>.
-            <br><br>If you have any questions, feel free to email Cheru Berhanu at <a href="mailto:cheru@cheru.dev">cheru@cheru.dev</a>. <br>This is going to be a ton of fun! We hope to see you there!
-            <br><br>~ <a href="https://cheru.dev">Cheru Berhanu</a>, <a href="https://henrybass.github.io/">Henry Bass</a>, <a href="https://snwy.me">Mason Meirs</a>, and <a href="https://hackclub.com">Hack Club</a> :D<br>
+        <h1>High schoolers!</h1>
+        <p>We're inviting you to learn to code at <strong>Epoch VT</strong>, a 10-hour hackathon (social coding event) where programmers, artists, designers, and other high-schoolers from across Vermont will come together to make fun projects like games and apps.
 
+        </p>
+        <div class="items">
+            <div>
+                <h2><strong><FontAwesomeIcon icon={faWrench} /></strong> Make Fun Projects</h2>
+                <p style="margin-bottom: 0">From a robotic aardvark that shoots candy to a video game built for pyromaniacs, the hack's the limit! Form teams of up to four people and build to your heart's content. After dinner, your projects will be judged to win some fun prizes.</p>
+            </div>
+            <div>
+                <h2><strong><FontAwesomeIcon icon={faSeedling} /></strong> All Skill Levels Welcome</h2>
+                <p style="margin-bottom: 0">Whether you've been coding for years or you've never written a line of code, you're still absolutely encouraged to come. We'll hold beginner workshops and help you along the way to make sure you have an amazing experience.</p> 
+            </div>
+            <div>
+                <h2><strong><FontAwesomeIcon icon={faDollarSign} /></strong> Totally Free</h2>   
+                <p style="margin-bottom: 0">Everything at this event is totally free, including meals, drinks, swag (hoodies & stickers!), and prizes. Our finances are all publicly visible on <a href="https://bank.hackclub.com/epochvt">Hack Club Bank</a>.
+                All you'll need to bring is a laptop; if you don't have one, email us and we'll figure something out.
+            </p>
+            </div>
+        <div>
+            <h2><strong><FontAwesomeIcon icon={faEarthAsia} /></strong> Global Focus</h2>
+            <p style="margin-bottom: 0">This is just one of several satellite events revolving around <a href="https://epoch.hackclub.com">Epoch</a>, a large high-school hackathon taking place in Delhi, India. We're part of <a href="https://hackclub.com">Hack Club</a>, a nonprofit network of high school coding clubs and makers around the world.</p>
+        </div>
+
+        </div>
+        <p>
+            <br>
+            If you have any questions, feel free to email Cheru Berhanu at <a href="mailto:cheru@cheru.dev">cheru@cheru.dev</a>. We'd love to see you there!
+            <br><br>
+            ~ <a href="https://cheru.dev">Cheru Berhanu</a>, <a href="https://henrybass.github.io/">Henry Bass</a>, <a href="https://snwy.me">Mason Meirs</a>, and <a href="https://hackclub.com">Hack Club</a> :D<br>
         </p>
         <a href="https://register.epochvt.hackclub.com"><button style="background-color: rgba(255, 71, 148, 1);border: solid 2px white; width: 100%; min-height: 50px; font-size: 1.4rem; cursor: pointer">Interested? Register here!</button></a>
     </div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2851.5632645962864!2d-73.22928398447851!3d44.38055797910306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cca7df09a009e9b%3A0xd3a527022dfe1a3e!2sHack%20Club!5e0!3m2!1sen!2sus!4v1669720569531!5m2!1sen!2sus" style="border:0; width: 100%; min-height: 100%; border-radius: 10px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2851.5632645962864!2d-73.22928398447851!3d44.38055797910306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cca7df09a009e9b%3A0xd3a527022dfe1a3e!2sHack%20Club!5e0!3m2!1sen!2sus!4v1669720569531!5m2!1sen!2sus" style="border:0; width: 100%; min-height: 100%; border-radius: 10px; filter: grayscale(100%) invert(100%)" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
 </div>
@@ -101,6 +128,9 @@
     .mobile-only {
         display: none;
     }
+    .items {
+        display: grid; width: 100; grid-template-columns: 1fr 1fr; column-gap: 20px;
+    }
     @media (max-width: 768px) {
         .main2 {
             grid-template-columns: 1fr;
@@ -111,6 +141,9 @@
         .mobile-only {
             display: block;
             position: relative;
+        }
+        .items {
+            grid-template-columns: 1fr;
         }
     }
 </style>
