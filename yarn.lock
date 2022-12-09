@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@beyonk/svelte-mapbox@^8.2.0":
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/@beyonk/svelte-mapbox/-/svelte-mapbox-8.2.0.tgz#c2771fae8dc918578807d8929fc907e30344dc57"
+  integrity sha512-v9iN5rqZDq50Sp3v0vjrg4rFzgatgRaX1YDU9MXaTqgGhOUpEhw675ZJDrcZ0XNZEoox20ki3EBHTufurjjSag==
+
 "@esbuild/android-arm@0.15.15":
   version "0.15.15"
   resolved "https://registry.yarnpkg.com/@esbuild/android-arm/-/android-arm-0.15.15.tgz#35b3cc0f9e69cb53932d44f60b99dd440335d2f0"
