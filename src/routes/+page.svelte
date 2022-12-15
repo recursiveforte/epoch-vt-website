@@ -71,7 +71,7 @@
             <br>
             If you have any questions, feel free to email Cheru Berhanu at <a href="mailto:cheru@cheru.dev">cheru@cheru.dev</a>. We'd love to see you there!
             <br><br>
-            ~ <a href="https://cheru.dev">Cheru Berhanu</a>, <a href="https://henrybass.github.io/">Henry Bass</a>, <a href="https://snwy.me">Mason Meirs</a>, and <a href="https://hackclub.com">Hack Club</a> :D<br>
+            ~ a project by <a href="https://hackclub.com">Hack Club</a> :D<br>
         </p>
         <a href="https://register.epochvt.hackclub.com"><button style="background-color: rgba(255, 71, 148, 1);border: solid 2px white; width: 100%; min-height: 50px; font-size: 1.4rem; cursor: pointer">Interested? Register here!</button></a>
     </div>
