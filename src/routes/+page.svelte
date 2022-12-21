@@ -63,7 +63,7 @@
             </div>
         <div>
             <h2><strong><FontAwesomeIcon icon={faEarthAsia} /></strong> Global Focus</h2>
-            <p style="margin-bottom: 0">This is just one of several satellite events revolving around <a href="https://epoch.hackclub.com">Epoch</a>, a large high-school hackathon taking place in Delhi, India. It's organized by <a href="https://hackclub.com">Hack Club</a>, a nonprofit network of high school coding clubs and makers around the world.</p>
+            <p style="margin-bottom: 0">This is just one of several satellite events revolving around <a href="https://epoch.hackclub.com">Epoch</a>, a large high-school hackathon taking place in Delhi, India. It's organized by <a href="https://hackclub.com">Hack Club</a>, a nonprofit network of high school makers around the world.</p>
         </div>
 
         </div>
