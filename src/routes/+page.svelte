@@ -69,7 +69,7 @@
         </div>
         <p>
             <br>
-            If you have any questions, feel free to email us at <a href="mailto:team@epochvt.hackclub.com">team@epochvt.hackclub.com</a>. We'd love to see you there!
+            If you have any questions, feel free to email us at <a href="mailto:cheru@hackclub.com">cheru@hackclub.com</a>. We'd love to see you there!
             <br><br>
             ~ a project by <a href="https://hackclub.com">Hack Club</a> :D<br>
         </p>
